@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Goova.Suscriptions.Models
+namespace Goova.Subscriptions.Models
 {
     public class ChangePasswordRequest
     {

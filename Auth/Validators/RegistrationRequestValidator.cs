@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using System;
 
-namespace Goova.Suscriptions.Models.Validators
+namespace Goova.Subscriptions.Models.Validators
 {
     public class RegistrationRequestValidator : Validator<RegistrationRequest>
     {

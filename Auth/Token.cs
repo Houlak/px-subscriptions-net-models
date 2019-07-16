@@ -1,4 +1,4 @@
-﻿namespace Goova.Suscriptions.Models
+﻿namespace Goova.Subscriptions.Models
 {
     public class Token
     {

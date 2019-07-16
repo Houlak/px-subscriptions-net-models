@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Goova.Suscriptions.Models.Clients
+namespace Goova.Subscriptions.Models.Clients
 {
     public class ClientAdmin
     {
