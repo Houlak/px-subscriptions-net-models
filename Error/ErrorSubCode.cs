@@ -1,4 +1,4 @@
-﻿namespace Goova.Canal10.Models.Error
+﻿namespace Goova.Suscriptions.Models.Error
 {
     public enum ErrorSubCode
     {

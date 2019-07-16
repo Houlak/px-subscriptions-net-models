@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Goova.Canal10.Models.Validators
+namespace Goova.Suscriptions.Models.Validators
 {
     public class ChangePasswordValidator : Validator<ChangePasswordRequest>
     {

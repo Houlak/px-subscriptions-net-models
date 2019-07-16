@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Goova.Canal10.Models.Error
+namespace Goova.Suscriptions.Models.Error
 {
     public class ErrorResponse
     {

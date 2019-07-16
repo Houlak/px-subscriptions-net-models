@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Goova.Canal10.Models.Issuers
+namespace Goova.Suscriptions.Models.Issuers
 {
     [System.Serializable]
     public class IssuerResponse

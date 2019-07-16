@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using Goova.Canal10.Models.Error;
+using Goova.Suscriptions.Models.Error;
 using System.Linq;
 
-namespace Goova.Canal10.Models
+namespace Goova.Suscriptions.Models
 {
     public class Validator<T> : AbstractValidator<T>
     {

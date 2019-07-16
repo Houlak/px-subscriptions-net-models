@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Goova.Canal10.Models.Clients
+namespace Goova.Suscriptions.Models.Clients
 {
     public class SuscriptionTypeResponse
     {

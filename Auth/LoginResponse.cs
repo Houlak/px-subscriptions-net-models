@@ -1,4 +1,4 @@
-﻿namespace Goova.Canal10.Models
+﻿namespace Goova.Suscriptions.Models
 {
     public class LoginResponse : Token
     {
