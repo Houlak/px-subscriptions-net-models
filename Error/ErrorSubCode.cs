@@ -7,6 +7,8 @@
         ConnectionError = 101,
         ArgumentError = 600,
 
+        UserError = 650,
+
         CredentialsError = 700,
     }
 }

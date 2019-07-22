@@ -8,6 +8,6 @@ namespace Goova.Subscriptions.Models.Clients
     {
         public string UserId { get; set; }
         public string UserName { get; set; }
-        public int ClientId { get; set; }
+        public Guid ClientId { get; set; }
     }
 }

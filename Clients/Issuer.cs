@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Goova.Subscriptions.Models.Issuers
+namespace Goova.Subscriptions.Models.Clients
 {
-    [System.Serializable]
-    public class IssuerResponse
+    public class Issuer
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string NormalizedName { get; set; }
-        public byte[] Picture { get; set; }
+        public string PictureUri { get; set; }
         public int PlexoId { get; set; }
         public bool Active { get; set; }
     }
