@@ -9,7 +9,7 @@ namespace Goova.Subscriptions.Models.Clients
         public int Id { get; set; }
         public string Name { get; set; }
         public string NormalizedName { get; set; }
-        public string PictureUri { get; set; }
+        public byte[] PictureData { get; set; }
         public int PlexoId { get; set; }
         public bool Active { get; set; }
     }
