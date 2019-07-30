@@ -2,5 +2,6 @@
 {
     public class LoginResponse : Token
     {
+        public UserType UserType { get; set; }
     }
 }
