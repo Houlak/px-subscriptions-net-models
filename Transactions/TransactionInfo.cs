@@ -10,6 +10,7 @@ namespace Goova.Subscriptions.Models.Transactions
         public string SubscriptionToken { get; set; }
         public decimal Amount { get; set; }
         public DateTime CreatedAt { get; set; }
+        public TransactionState State { get; set; }
         //public Instrument Instrument { get; set; } TODO: how to return instrument info on transaction
     }
 }
