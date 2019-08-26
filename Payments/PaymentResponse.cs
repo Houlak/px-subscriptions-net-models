@@ -17,5 +17,6 @@ namespace Goova.Subscriptions.Models.Payments
         public string ReferenceId { get; set; }
         public string Authorizaton { get; set; }
         public string Ticket { get; set; }
+        public Currency Currency { get; set; }
     }
 }
