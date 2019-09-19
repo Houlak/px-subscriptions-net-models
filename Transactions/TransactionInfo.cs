@@ -13,6 +13,6 @@ namespace Goova.Subscriptions.Models.Transactions
         public DateTime CreatedAt { get; set; }
         public TransactionState State { get; set; }
         public Currency Currency { get; set; }
-        //public Instrument Instrument { get; set; } TODO: how to return instrument info on transaction
+        //public Instrument Instrument { get; set; } TODO: return instrument info on transaction?
     }
 }

@@ -11,7 +11,5 @@ namespace Goova.Subscriptions.Models.Clients
         public string Email { get; set; }
         public string Name { get; set; }
         public string FullName { get; set; }
-
-        //TODO: add other Data
     }
 }
