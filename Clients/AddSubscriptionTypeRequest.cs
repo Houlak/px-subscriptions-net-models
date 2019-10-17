@@ -9,7 +9,7 @@ namespace Goova.Subscriptions.Models.Clients
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Frequence { get; set; }
+        public FrequenceModel Frequence { get; set; }
         public decimal SubscriptionCost { get; set; }
         public Currency Currency { get; set; }
     }
