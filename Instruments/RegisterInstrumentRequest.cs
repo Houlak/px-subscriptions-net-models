@@ -6,7 +6,7 @@ namespace Goova.Subscriptions.Models.Instruments
 {
     public class RegisterInstrumentRequest
     {
-        public bool activeCallback { get; set; }
-        public string callbackUrl { get; set; }
+        public bool ActiveCallback { get; set; }
+        public string CallbackUrl { get; set; }
     }
 }
