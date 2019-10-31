@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Goova.Subscriptions.Models.Clients
 {
-    public class Consumer
+    public class Subscriptor
     {
         public int Id { get; set; }
         public string ExternalId { get; set; }

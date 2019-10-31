@@ -13,6 +13,6 @@ namespace Goova.Subscriptions.Models.Clients
         public ClientAdmin Admin { get; set; }
         public ICollection<SubscriptionTypeResponse> SubscriptionTypes { get; set; }
         public ICollection<Commerce> Commerces { get; set; }
-        public ICollection<Consumer> Consumers { get; set; }
+        public ICollection<Subscriptor> Subscriptors { get; set; }
     }
 }
