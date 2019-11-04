@@ -11,6 +11,7 @@
         PlexoAuthorizationError = 602,
         IssuerNotSupported = 603,
         TransactionError = 604,
+        PlexoGeneralError = 609,
 
         UserError = 650,
 
