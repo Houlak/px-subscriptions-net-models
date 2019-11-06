@@ -12,6 +12,7 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public DateTime SubscriptionDate { get; set; }
         public TransactionState SubscriptionStatus { get; set; }
         public DateTime SubscriptionLastPaymentDate { get; set; }
+        public DateTime ValidUntil { get; set; }
         public Instrument PaymentInstrument { get; set; }
     }
 }
