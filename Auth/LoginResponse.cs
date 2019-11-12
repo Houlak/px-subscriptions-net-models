@@ -4,4 +4,10 @@
     {
         public UserType UserType { get; set; }
     }
+
+    public enum UserType
+    {
+        SuperAdmin = 0,
+        Admin = 1,
+    }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Goova.Subscriptions.Models
+﻿namespace Goova.Subscriptions.Models
 {
     public class ChangePasswordRequest
     {

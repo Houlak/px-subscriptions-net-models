@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Goova.Subscriptions.Models.Clients
 {
@@ -11,8 +9,8 @@ namespace Goova.Subscriptions.Models.Clients
         public string LegalName { get; set; }
         public string LegalId { get; set; }
         public ClientAdmin Admin { get; set; }
-        public ICollection<SubscriptionTypeResponse> SubscriptionTypes { get; set; }
-        public ICollection<Commerce> Commerces { get; set; }
-        public ICollection<Subscriptor> Subscriptors { get; set; }
+        public ICollection<SubscriptionType.SubscriptionType> SubscriptionTypes { get; set; }
+        public ICollection<Commerce.Commerce> Commerces { get; set; }
+        public ICollection<Subscriptors.Subscriptor> Subscriptors { get; set; }
     }
 }

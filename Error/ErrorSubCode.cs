@@ -4,17 +4,19 @@
     {
         Ok = 0,
         UnknownError = 100,
-        ConnectionError = 101,
+        ModelValidationError = 101,
+        ArgumentError = 102,
+        
+        CredentialsError = 200,
 
-        ArgumentError = 600,
-        CommerceError = 601,
-        PlexoAuthorizationError = 602,
-        IssuerNotSupported = 603,
-        TransactionError = 604,
-        PlexoGeneralError = 609,
+        AlreadyAdded = 300,
 
-        UserError = 650,
+        AlreadyActive = 500,
+        NotLongerAvailable = 501,
 
-        CredentialsError = 700,
+        //Plexo
+        CommerceError = 800,
+        PlexoAuthorizationError = 801,
+        TransactionError = 802,
     }
 }
