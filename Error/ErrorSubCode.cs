@@ -18,5 +18,6 @@
         CommerceError = 800,
         PlexoAuthorizationError = 801,
         TransactionError = 802,
+        InstrumentError = 803,
     }
 }
