@@ -14,6 +14,5 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public string FullName { get; set; }
         public Instrument Instrument { get; set; }
         public ICollection<Subscription> Subscriptions { get; set; }
-        public ICollection<Transaction> Transactions { get; set; }
     }
 }

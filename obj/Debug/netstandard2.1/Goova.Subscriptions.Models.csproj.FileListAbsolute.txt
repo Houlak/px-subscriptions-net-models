@@ -1,7 +1,6 @@
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\bin\Debug\netstandard2.1\Goova.Subscriptions.Models.deps.json
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\bin\Debug\netstandard2.1\Goova.Subscriptions.Models.dll
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\bin\Debug\netstandard2.1\Goova.Subscriptions.Models.pdb
-C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\obj\Debug\netstandard2.1\Goova.Subscriptions.Models.csprojAssemblyReference.cache
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\obj\Debug\netstandard2.1\Goova.Subscriptions.Models.AssemblyInfoInputs.cache
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\obj\Debug\netstandard2.1\Goova.Subscriptions.Models.AssemblyInfo.cs
 C:\Projects\Goova.Subscriptions.Api.V2\Goova.Subscriptions.Models\obj\Debug\netstandard2.1\Goova.Subscriptions.Models.dll
