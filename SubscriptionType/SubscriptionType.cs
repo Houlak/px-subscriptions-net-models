@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Goova.Subscriptions.Models.SubscriptionType
+﻿namespace Goova.Subscriptions.Models.SubscriptionType
 {
     public class SubscriptionType
     {
@@ -12,23 +8,5 @@ namespace Goova.Subscriptions.Models.SubscriptionType
         public Frequence Frequence { get; set; }
         public decimal SubscriptionCost { get; set; }
         public Currency Currency { get; set; }
-    }
-
-    public enum Frequence
-    {
-        Diary,
-        Weekly,
-        Monthly,
-        Bimonthly,
-        Quaterly,
-        Biannual,
-        Annual
-    }
-
-    public enum Currency
-    {
-        UruguayanPeso = 1,
-        Dollar = 2,
-        MexicanPeso = 6,
     }
 }
