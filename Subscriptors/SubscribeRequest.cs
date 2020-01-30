@@ -8,5 +8,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
     {
         public string ExternalId { get; set; }
         public int SubscriptionTypeId { get; set; }
+        public string LegalId { get; set; } //RUT uruguay, RFC mexico 
     }
 }
