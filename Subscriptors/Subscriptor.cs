@@ -11,6 +11,7 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public string ExternalId { get; set; }
         public string Email { get; set; }
         public string Name { get; set; }
+        public string PostalCode { get; set; }
         public string FullName { get; set; }
         public Instrument Instrument { get; set; }
         public ICollection<Subscription> Subscriptions { get; set; }
