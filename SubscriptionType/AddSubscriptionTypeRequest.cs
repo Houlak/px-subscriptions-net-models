@@ -7,6 +7,6 @@
         public Frequence Frequence { get; set; }
         public decimal SubscriptionCost { get; set; }
         public Currency Currency { get; set; }
-        public bool Visible { get; set; }
+        public bool Visible { get; set; } = true;
     }
 }
