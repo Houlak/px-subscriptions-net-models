@@ -7,6 +7,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public int Page { get; set; } = 1;
         public int Limit { get; set; } = 5;
         public bool ActiveOnly { get; set; }
-        public bool CourtesySubscriptors { get; set; } = false;
+        public string SubscriptionTypes { get; set; }
     }
 }
