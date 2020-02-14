@@ -4,5 +4,6 @@
     {
         public string ClientName { get; set; }
         public string ClientSecret { get; set; }
+        public string RecurringPaymentUrl { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace Goova.Subscriptions.Models.Clients
         public string Name { get; set; }
         public string LegalName { get; set; }
         public string LegalId { get; set; }
+        public string RecurringPaymentUrl { get; set; }
         public ClientAdmin Admin { get; set; }
         public ICollection<SubscriptionType.SubscriptionType> SubscriptionTypes { get; set; }
         public ICollection<Commerce.Commerce> Commerces { get; set; }

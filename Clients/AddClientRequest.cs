@@ -7,5 +7,6 @@
         public string ClientSecret { get; set; }
         public string ClientLegalName { get; set; }
         public string ClientLegalId { get; set; }
+        public string RecurringPaymentUrl { get; set; }
     }
 }
