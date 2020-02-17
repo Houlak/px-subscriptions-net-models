@@ -12,6 +12,7 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public DateTime Timestamp { get; set; }
         public int Installments { get; set; }
         public TransactionState Status { get; set; }
+        public string ErrorString { get; set; }
         public int UserId { get; set; }
         public string CommerceId { get; set; }
         public decimal Amount { get; set; }
