@@ -16,6 +16,7 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public int UserId { get; set; }
         public string CommerceId { get; set; }
         public decimal Amount { get; set; }
+        public string TaxPercentage { get; set; }
         public int TransactionId { get; set; }
         public string ReferenceId { get; set; }
         public string Authorizaton { get; set; }
