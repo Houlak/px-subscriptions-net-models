@@ -13,6 +13,9 @@ namespace Goova.Subscriptions.Models.PagedResults
         public int RowCount { get; set; }
         public string LinkTemplate { get; set; }
 
+        public decimal Totals { get; set; }
+        public decimal TotalsDollar { get; set; }
+
         public int FirstRowOnPage
         {
             get { return (CurrentPage - 1) * PageSize + 1; }
