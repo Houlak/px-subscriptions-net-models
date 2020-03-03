@@ -13,6 +13,7 @@ namespace Goova.Subscriptions.Models.Transactions
         public TransactionState State { get; set; }
         public Currency Currency { get; set; }
         public Instrument Instrument { get; set; }
+        public Subscriptors.SubscriptorDTO Subscriptor { get; set; }
     }
 
     public enum TransactionState
