@@ -1,4 +1,7 @@
-﻿namespace Goova.Subscriptions.Models.Issuers
+﻿using Plexo.Client.SDK.Models;
+using System.Collections.Generic;
+
+namespace Goova.Subscriptions.Models.Issuers
 {
     [System.Serializable]
     public class Issuer
@@ -9,5 +12,6 @@
         public string IssuerImageUrl { get; set; }
         public int PlexoId { get; set; }
         public bool Active { get; set; }
+        public List<FieldInfo> Fields { get; set; }
     }
 }
