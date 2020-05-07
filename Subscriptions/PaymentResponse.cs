@@ -1,8 +1,5 @@
-﻿using Goova.Subscriptions.Models.SubscriptionType;
-using Goova.Subscriptions.Models.Transactions;
+﻿using Goova.Subscriptions.Models.Transactions;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Goova.Subscriptions.Models.Subscriptions
 {
@@ -23,5 +20,6 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public string Ticket { get; set; }
         public Currency Currency { get; set; }
         public string ExtendedResponse { get; set; }
+        public bool Retry { get; set; } = false;
     }
 }

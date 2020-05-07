@@ -15,6 +15,7 @@
         NotLongerAvailable = 501,
 
         //Plexo
+        PlexoGeneralError = 760,
         CommerceError = 800,
         PlexoAuthorizationError = 801,
         TransactionError = 802,
