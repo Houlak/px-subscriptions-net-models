@@ -2,7 +2,7 @@
 {
     public enum Frequence
     {
-        Diary,
+        Dialy,
         Weekly,
         Monthly,
         Bimonthly,
