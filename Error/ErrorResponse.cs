@@ -7,6 +7,5 @@ namespace Goova.Subscriptions.Models.Error
         public HttpStatusCode Code { get; set; }
         public string Message { get; set; }
         public ErrorSubCode SubCode { get; set; }
-        public string Ubication { get; set; }
     }
 }
