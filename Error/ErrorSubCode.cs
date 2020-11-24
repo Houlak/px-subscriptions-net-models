@@ -10,6 +10,10 @@
         CredentialsError = 200,
 
         AlreadyAdded = 300,
+        ClientDoesNotExist = 301,
+        IncorrectClient = 302,
+        SubscriptionTypeDoesNotExist = 303,
+
 
         AlreadyActive = 500,
         NotLongerAvailable = 501,
