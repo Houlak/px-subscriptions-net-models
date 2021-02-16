@@ -8,5 +8,6 @@ namespace Goova.Subscriptions.Models.Instruments
     {
         public string CallbackUrl { get; set; }
         public bool PopulateData { get; set; } = true;
+        public int? Issuer { get; set; } = null;
     }
 }
