@@ -13,5 +13,6 @@ namespace Goova.Subscriptions.Models.Clients
         public ICollection<SubscriptionType.SubscriptionType> SubscriptionTypes { get; set; }
         public ICollection<Commerce.Commerce> Commerces { get; set; }
         public ICollection<Subscriptors.Subscriptor> Subscriptors { get; set; }
+        public bool ElectronicBillingEnabled { get; set; }
     }
 }

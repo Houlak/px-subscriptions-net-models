@@ -2,7 +2,7 @@
 {
     public class LoginResponse : Token
     {
-        public UserType UserType { get; set; }
+        public Account.Account Account { get; set; }
     }
 
     public enum UserType

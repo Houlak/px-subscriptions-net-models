@@ -1,4 +1,5 @@
-﻿using Goova.Subscriptions.Models.Instruments;
+﻿using Goova.Subscriptions.Models.ElectronicBilling;
+using Goova.Subscriptions.Models.Instruments;
 using Goova.Subscriptions.Models.SubscriptionType;
 using System;
 
@@ -14,6 +15,7 @@ namespace Goova.Subscriptions.Models.Transactions
         public Currency Currency { get; set; }
         public Instrument Instrument { get; set; }
         public Subscriptors.SubscriptorDTO Subscriptor { get; set; }
+        public ElectronicBill ElectronicBill { get; set; }
     }
 
     public enum TransactionState
