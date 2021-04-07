@@ -1,6 +1,7 @@
 ﻿using Goova.Subscriptions.Models.Instruments;
 using Goova.Subscriptions.Models.Subscriptions;
 using Goova.Subscriptions.Models.Transactions;
+using System;
 using System.Collections.Generic;
 
 namespace Goova.Subscriptions.Models.Subscriptors
@@ -16,5 +17,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public Instrument Instrument { get; set; }
         public ICollection<Subscription> Subscriptions { get; set; }
         public ICollection<Transaction> Transactions { get; set; }
+        public DateTime FirstSubscribed { get; set; }
     }
 }
