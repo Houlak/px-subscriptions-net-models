@@ -8,5 +8,6 @@ namespace Goova.Subscriptions.Models.Home
         public int TotalSubscriptors { get; set; }
         public int CourtesySubscriptors { get; set; }
         public List<(DateTime, int)> HistoricTotalSubscriptors { get; set; }
+        public int ChurnSubscriptors { get; set; }
     }
 }
