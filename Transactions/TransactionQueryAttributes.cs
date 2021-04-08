@@ -12,5 +12,6 @@ namespace Goova.Subscriptions.Models.Transactions
         public int? Currency { get; set; } = 99; //Any by default
         public int Page { get; set; } = 1;
         public int Limit { get; set; } = 5;
+        public TransactionState TransactionState { get; set; } = 0;
     }
 }
