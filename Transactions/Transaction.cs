@@ -23,6 +23,7 @@ namespace Goova.Subscriptions.Models.Transactions
         Ok = 0,
         OnHold = 1,
         Canceled = 2,
+        CancelationFailed = 3,
         Failed = 4,
     }
 }
