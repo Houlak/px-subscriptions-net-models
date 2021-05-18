@@ -1,4 +1,5 @@
 ﻿using Goova.Subscriptions.Models.Instruments;
+using Goova.Subscriptions.Models.Subscriptors;
 using Goova.Subscriptions.Models.Transactions;
 using System;
 
@@ -14,5 +15,6 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public TransactionState SubscriptionStatus { get; set; }
         public DateTime SubscriptionLastPaymentDate { get; set; }
         public DateTime ValidUntil { get; set; }
+        public SubscriptorDTO SubscriptorDto { get; set; }
     }
 }
