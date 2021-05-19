@@ -21,5 +21,11 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public Currency Currency { get; set; }
         public string ExtendedResponse { get; set; }
         public bool Retry { get; set; } = false;
+        public string Surnames { get; set; }
+        public string City { get; set; }
+        public string Address { get; set; }
+        public string ContactNo { get; set; }
+        public string Gender { get; set; }
+        public string InstrumentName { get; set; }
     }
 }
