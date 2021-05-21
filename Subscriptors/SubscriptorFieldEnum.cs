@@ -6,15 +6,15 @@ namespace Goova.Subscriptions.Models.Subscriptors
 {
     public enum SubscriptorFieldEnum
     {
-        EXTERNALID,
-        SUBSCRIPTORID,
-        EMAIL,
-        NAMES,
-        SURNAMES,
-        TELEPHONENO,
-        BIRTHDATE,
-        CITY,
-        GENDER,
-        SUBSCRIPTIONCREATEDOK
+        ExternalId,
+        SubscriptorId,
+        Email,
+        Names,
+        Surnames,
+        TelephoneNo,
+        Birthdate,
+        City,
+        Gender,
+        SubscriptionCreateOK
     }
 }
