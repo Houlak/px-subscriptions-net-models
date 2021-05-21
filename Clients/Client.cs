@@ -14,5 +14,11 @@ namespace Goova.Subscriptions.Models.Clients
         public ICollection<Commerce.Commerce> Commerces { get; set; }
         public ICollection<Subscriptors.Subscriptor> Subscriptors { get; set; }
         public bool ElectronicBillingEnabled { get; set; }
+        public RetriesConfigurationEnum RetriesConfiguration { get; set; }
+    }
+    public enum RetriesConfigurationEnum
+    {
+        Traditional = 0,
+        Teleton = 1
     }
 }
