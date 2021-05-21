@@ -14,7 +14,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
         TelephoneNo,
         Birthdate,
         City,
-        Gender,
-        SubscriptionCreateOK
+        Gender
     }
 }
