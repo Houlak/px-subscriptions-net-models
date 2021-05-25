@@ -12,7 +12,8 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public Currency Currency { get; set; }
         public DateTime PaymentDate { get; set; }
         public string ExternalId { get; set; }
-        public string SubscriptionType { get; set; }
+        public string SubscriptionTypeId { get; set; }
+        public string SubscriptionTypeName { get; set; }
         public bool Success { get; set; }
         public string ErrorString { get; set; }
     }
