@@ -6,7 +6,6 @@ namespace Goova.Subscriptions.Models.Clients
 {
     public class SetNotificationPermissions
     {
-        public int? Id { get; set; } = null;
         public bool TransactionCancellation { get; set; }
         public bool SubscriptionCancellation { get; set; }
         public bool SubscriptorFields { get; set; }
