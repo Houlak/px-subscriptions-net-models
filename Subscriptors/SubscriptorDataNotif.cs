@@ -9,5 +9,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public string ExternalId { get; set; }
 
         public Dictionary<SubscriptorFieldEnum, string> Fields { get; set; } = new Dictionary<SubscriptorFieldEnum, string>();
+
     }
 }
