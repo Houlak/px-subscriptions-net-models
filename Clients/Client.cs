@@ -15,6 +15,7 @@ namespace Goova.Subscriptions.Models.Clients
         public ICollection<Subscriptors.Subscriptor> Subscriptors { get; set; }
         public bool ElectronicBillingEnabled { get; set; }
         public RetriesConfigurationEnum RetriesConfiguration { get; set; }
+        public PaymentFacilitator.PaymentFacilitatorConfiguration PaymentFacilitatorConfiguration { get; set; }
     }
     public enum RetriesConfigurationEnum
     {
