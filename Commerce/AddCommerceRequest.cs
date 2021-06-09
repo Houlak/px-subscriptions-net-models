@@ -7,5 +7,6 @@
         public string CommerceTerminalNumber { get; set; }
         public int IssuerId { get; set; }
         public int? PaymentFacilitatorPlexoCommerceId { get; set; }
+        public int? PaymentFacilitatorId { get; set; }
     }
 }
