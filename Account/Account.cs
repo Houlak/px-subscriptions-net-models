@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Goova.Subscriptions.Models.PaymentFacilitator;
+using System;
 using System.Collections.Generic;
 
 namespace Goova.Subscriptions.Models.Account
@@ -9,5 +10,6 @@ namespace Goova.Subscriptions.Models.Account
         public UserType UserType { get; set; }
         public string ClientId {get;set;}
         public bool ElectronicBillingEnabled { get; set; }
+        public PaymentFacilitatorDetails PaymentFacilitatorDetails { get; set; }
     }
 }
