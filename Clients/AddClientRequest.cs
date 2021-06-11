@@ -9,5 +9,6 @@
         public string ClientLegalId { get; set; }
         public string RecurringPaymentUrl { get; set; }
         public string PFId { get; set; }
+        public int PFCommerceId { get; set; }
     }
 }
