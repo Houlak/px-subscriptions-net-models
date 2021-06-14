@@ -9,6 +9,7 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public string SubscriptorEmailOrNameOrId { get; set; }
         public SubscriptorsQueryState SubscriptorsState { get; set; }
         public string SubscriptionTypes { get; set; }
+        public bool? ActiveOnly { get; set; }
     }
 
     public enum SubscriptorsQueryState
