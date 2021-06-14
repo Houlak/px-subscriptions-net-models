@@ -11,6 +11,6 @@ namespace Goova.Subscriptions.Models.PaymentFacilitator
         public bool SubscriptorFields { get; set; }
         public bool PaymentSuccess { get; set; }
         public bool PaymentFailed { get; set; }
-        public string UrlCallback { get; set; }
+        public string CallbackUrl { get; set; }
     }
 }
