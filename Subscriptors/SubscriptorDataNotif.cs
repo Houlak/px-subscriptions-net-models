@@ -10,6 +10,6 @@ namespace Goova.Subscriptions.Models.Subscriptors
         public string ExternalId { get; set; }
 
         public Dictionary<string, string> Fields { get; set; }
-        public new NotificationTypeEnum NotificationType { get; } = NotificationTypeEnum.SubscriptorData
+        public new NotificationTypeEnum NotificationType { get; } = NotificationTypeEnum.SubscriptorData;
     }
 }
