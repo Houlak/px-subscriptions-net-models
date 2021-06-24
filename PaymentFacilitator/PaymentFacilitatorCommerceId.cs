@@ -8,6 +8,6 @@ namespace Goova.Subscriptions.Models.PaymentFacilitator
     {
         public int Id { get; set; }
         public int Value { get; set; }
-        public PaymentFacilitator PaymentFacilitator { get; set; }
+
     }
 }
