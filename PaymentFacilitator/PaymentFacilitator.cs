@@ -11,7 +11,7 @@ namespace Goova.Subscriptions.Models.PaymentFacilitator
         public string CallbackUrl { get; set; }
         public string Name { get; set; }
         public Style Style { get; set; }
-        public ICollection<int> PaymentFacilitatorCommerceIds { get; set; }
+        public ICollection<PaymentFacilitatorCommerceId> PaymentFacilitatorCommerceIds { get; set; }
         public int PaymentFacilitatorPlexoId { get; set; }
         public PFAdmin PFadmin { get; set; }
 
