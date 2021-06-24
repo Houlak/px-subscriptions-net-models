@@ -8,9 +8,10 @@ namespace Goova.Subscriptions.Models.PaymentFacilitator
 {
     public class PaymentFacilitatorConfiguration
     {
-        public PaymentFacilitator PaymentFacilitator { get; set; }
+        public PaymentFacilitatorDto PaymentFacilitator { get; set; }
         public bool Enabled { get; set; }
         public bool CanCreateAdditionalIssuers { get; set; }
+        public int PFCommerceId { get; set; }
         public PaymentFacilitatorConfiguration() : base()
         {
 
