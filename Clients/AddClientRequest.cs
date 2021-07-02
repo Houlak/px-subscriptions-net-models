@@ -11,5 +11,7 @@
         public string PFId { get; set; }
         public int PFCommerceId { get; set; }
         public bool CanAddIssuers { get; set; }
+
+        public bool TaxApplies { get; set; } = true;
     }
 }
