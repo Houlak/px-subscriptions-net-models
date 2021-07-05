@@ -15,6 +15,7 @@ namespace Goova.Subscriptions.Models.Subscriptors
         Birthdate,
         City,
         Provider,
-        Gender
+        Gender,
+        Amount
     }
 }
