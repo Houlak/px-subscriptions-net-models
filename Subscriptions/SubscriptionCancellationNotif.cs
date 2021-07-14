@@ -11,6 +11,7 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public string SubscriptionActulStatus {get; set;}
         public string ClientName { get; set; }
         public string CancellationDate { get; set; }
+        public string ExternalId { get; set; } //subscriptor external id
         public new NotificationTypeEnum NotificationType { get; } = NotificationTypeEnum.SubscriptionCancellation;
 
     }
