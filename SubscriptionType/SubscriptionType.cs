@@ -10,5 +10,6 @@
         public string TaxPercentage { get; set; }
         public Currency Currency { get; set; }
         public bool RegularType { get; set; }
+        public int Recurrence { get; set; } 
     }
 }

@@ -8,5 +8,6 @@
         public decimal SubscriptionCost { get; set; }
         public Currency Currency { get; set; }
         public bool RegularType { get; set; } = true;
+        public int Recurrence { get; set; } //If is equal to zero is disable
     }
 }
