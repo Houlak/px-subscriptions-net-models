@@ -15,6 +15,8 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public string ExternalId { get; set; }
         public string SubscriptionTypeId { get; set; }
         public string SubscriptionTypeName { get; set; }
+        public string Authorization { get; set; }
+        public string Ticket { get; set; }
         public bool Success { get; set; }
         public string ErrorString { get; set; }
     }
