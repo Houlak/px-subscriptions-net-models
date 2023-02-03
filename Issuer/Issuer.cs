@@ -1,4 +1,4 @@
-﻿using Plexo.Client.SDK.Models;
+﻿using Plexo.Models;
 using System.Collections.Generic;
 
 namespace Goova.Subscriptions.Models.Issuers
