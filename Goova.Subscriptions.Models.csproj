@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Goova.Plexo.SDK.NetCore\Plexo.Sdk.csproj" />
+    <ProjectReference Include="..\plexo-dotnet-models\src\Plexo.Models.csproj" />
   </ItemGroup>
 
 </Project>
