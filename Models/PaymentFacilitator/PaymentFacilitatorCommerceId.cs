@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Goova.Subscriptions.Models.Models.PaymentFacilitator
+{
+    public class PaymentFacilitatorCommerceId
+    {
+        public int Id { get; set; }
+        public int Value { get; set; }
+    }
+}
