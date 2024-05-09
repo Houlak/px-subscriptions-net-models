@@ -1,5 +1,4 @@
-﻿
-using Goova.Subscriptions.Models.Models.Instruments;
+﻿using Goova.Subscriptions.Models.Dtos.Instruments;
 
 namespace Goova.Subscriptions.Models.Requests.Instruments
 {
@@ -8,6 +7,6 @@ namespace Goova.Subscriptions.Models.Requests.Instruments
         public bool RegisterSuccess { get; set; }
         public string ErrorString { get; set; }
         public string ExternalId { get; set; }
-        public Instrument Instrument { get; set; }
+        public InstrumentDto Instrument { get; set; }
     }
 }

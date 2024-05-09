@@ -1,4 +1,6 @@
-﻿namespace Goova.Subscriptions.Models.Requests.SubscriptionType
+﻿using Goova.Subscriptions.Models.Enumerables;
+
+namespace Goova.Subscriptions.Models.Requests.SubscriptionType
 {
     public class AddSubscriptionTypeRequest
     {

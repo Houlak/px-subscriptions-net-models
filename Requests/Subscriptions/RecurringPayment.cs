@@ -1,13 +1,14 @@
-﻿using Goova.Subscriptions.Models.Models.Instruments;
-using Goova.Subscriptions.Models.Models.Notifications;
+﻿using Goova.Subscriptions.Models.Dtos.Instruments;
+using Goova.Subscriptions.Models.Dtos.Notifications;
+using Goova.Subscriptions.Models.Enumerables;
 using System;
 
 namespace Goova.Subscriptions.Models.Requests.Subscriptions
 {
-    public class RecurringPayment : Notification
+    public class RecurringPayment : NotificationDto
     {
         public string BillId { get; set; }
-        public Instrument Instrument { get; set; }
+        public InstrumentDto Instrument { get; set; }
         public string SubscriberName { get; set; }
         public decimal Amount { get; set; }
         public string PercentageTax { get; set; }

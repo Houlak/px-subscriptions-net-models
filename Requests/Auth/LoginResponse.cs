@@ -1,9 +1,9 @@
-﻿using Goova.Subscriptions.Models.Models.Account;
+﻿using Goova.Subscriptions.Models.Dtos.Account;
 
 namespace Goova.Subscriptions.Models.Requests
 {
     public class LoginResponse : Token
     {
-        public Account Account { get; set; }
+        public AccountDto Account { get; set; }
     }
 }

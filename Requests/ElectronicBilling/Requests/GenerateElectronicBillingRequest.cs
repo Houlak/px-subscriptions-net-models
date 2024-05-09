@@ -1,4 +1,4 @@
-﻿using Goova.Subscriptions.Models;
+﻿using Goova.Subscriptions.Models.Enumerables;
 
 namespace Goova.Subscriptions.Models.Requests.ElectronicBilling.Requests
 {
