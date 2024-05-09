@@ -11,5 +11,6 @@ namespace Goova.Subscriptions.Models.Models.Instruments
         public string IssuerImageUrl { get; set; }
         public string IssuerName { get; set; }
         public string Name { get; set; }
+        public string Token { get; set; }
     }
 }
