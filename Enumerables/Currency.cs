@@ -10,6 +10,5 @@ namespace Goova.Subscriptions.Models.Enumerables
     {
         UruguayanPeso = 1,
         Dollar = 2,
-        MexicanPeso = 6,
     }
 }
