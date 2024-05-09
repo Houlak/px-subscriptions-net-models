@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Goova.Subscriptions.Models.Enumerables;
+using System;
 
 namespace Goova.Subscriptions.Models.Requests.Subscriptors
 {
@@ -10,12 +11,5 @@ namespace Goova.Subscriptions.Models.Requests.Subscriptors
         public SubscriptorsQueryState SubscriptorsState { get; set; }
         public string SubscriptionTypes { get; set; }
         public bool? ActiveOnly { get; set; }
-    }
-
-    public enum SubscriptorsQueryState
-    {
-        All,
-        Active,
-        Inactive
     }
 }

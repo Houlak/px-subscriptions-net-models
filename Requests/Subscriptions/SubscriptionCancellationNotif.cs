@@ -1,9 +1,9 @@
-﻿using Goova.Subscriptions.Models.Enumerables;
-using Goova.Subscriptions.Models.Models.Notifications;
+﻿using Goova.Subscriptions.Models.Dtos.Notifications;
+using Goova.Subscriptions.Models.Enumerables;
 
 namespace Goova.Subscriptions.Models.Requests.Subscriptions
 {
-    public class SubscriptionCancellationNotif : Notification
+    public class SubscriptionCancellationNotif : NotificationDto
     {
         public string SubscriptionType { get; set; }
         public string SubscriptionActulStatus {get; set;}

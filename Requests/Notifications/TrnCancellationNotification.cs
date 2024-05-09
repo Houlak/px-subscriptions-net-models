@@ -1,13 +1,12 @@
-﻿using Goova.Subscriptions.Models.Enumerables;
-using Goova.Subscriptions.Models.Models.ElectronicBilling;
-using Goova.Subscriptions.Models.Models.Notifications;
-using Goova.Subscriptions.Models.Models.Transactions;
+﻿using Goova.Subscriptions.Models.Dtos.ElectronicBilling;
+using Goova.Subscriptions.Models.Dtos.Notifications;
+using Goova.Subscriptions.Models.Enumerables;
 using System;
 
 
 namespace Goova.Subscriptions.Models.Requests.Notifications
 {
-    public class TrnCancellationNotification : Notification
+    public class TrnCancellationNotification : NotificationDto
     {
         public int Id { get; set; }
         public string PlexoReferenceId { get; set; }
@@ -27,7 +26,7 @@ namespace Goova.Subscriptions.Models.Requests.Notifications
         public string IssuerName { get; set; }
         public TransactionState Status { get; set; }
         public string ElectronicBillingId { get; set; } //UUID de factura generada con FacturaEnLinea (MX)
-        public ElectronicBill ElectronicBillUY { get; set; } //UUID de factura generada con FacturaEnLinea (MX)
+        public ElectronicBillDto ElectronicBillUY { get; set; } //UUID de factura generada con FacturaEnLinea (MX)
         public new NotificationTypeEnum NotificationType { get; } = NotificationTypeEnum.TransactionCancellation;
     }
 }

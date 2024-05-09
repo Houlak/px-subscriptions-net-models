@@ -1,5 +1,6 @@
 ﻿
-using Goova.Subscriptions.Models.Models.ElectronicBilling;
+using Goova.Subscriptions.Models.Dtos.ElectronicBilling;
+using Goova.Subscriptions.Models.Enumerables;
 
 namespace Goova.Subscriptions.Models.Requests.ElectronicBilling.Requests
 {
@@ -12,11 +13,11 @@ namespace Goova.Subscriptions.Models.Requests.ElectronicBilling.Requests
         public string Rut { get; set; }
         public string SocialReason { get; set; }
         public decimal Amount { get; set; }
-        public ElectronicBill ElectronicBill { get; set; }
+        public ElectronicBillDto ElectronicBill { get; set; }
         public string SubscriptionTypeName { get; set; }
 
         public CreateElectronicBillingRequest(string subscriptorName, string taxPercentage, Currency currency, bool isCancellation, string rut,
-            string socialReason, decimal amount, ElectronicBill electronicBill, string SubscriptionTypeName)
+            string socialReason, decimal amount, ElectronicBillDto electronicBill, string SubscriptionTypeName)
         {
             SubscriptorName = subscriptorName;
             TaxPercentage = taxPercentage;

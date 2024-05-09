@@ -1,4 +1,4 @@
-﻿using Goova.Subscriptions.Models.Models.Transactions;
+﻿using Goova.Subscriptions.Models.Enumerables;
 using System;
 
 namespace Goova.Subscriptions.Models.Requests.Subscriptions
