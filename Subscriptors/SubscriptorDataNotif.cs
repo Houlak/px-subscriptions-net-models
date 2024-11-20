@@ -1,15 +1,10 @@
-﻿using Goova.Subscriptions.Models.Notifications;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Goova.Subscriptions.Models.Subscriptors
 {
-    public class SubscriptorDataNotif : Notification
+    public class SubscriptorDataNotif
     {
         public string ExternalId { get; set; }
-
         public Dictionary<string, string> Fields { get; set; }
-        public new NotificationTypeEnum NotificationType { get; } = NotificationTypeEnum.SubscriptorData;
     }
 }

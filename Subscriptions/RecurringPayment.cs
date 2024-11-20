@@ -1,9 +1,8 @@
-﻿using Goova.Subscriptions.Models.Notifications;
-using System;
+﻿using System;
 
 namespace Goova.Subscriptions.Models.Subscriptions
 {
-    public class RecurringPayment : Notification
+    public class RecurringPayment
     {
         public string BillId { get; set; }
         public Instruments.Instrument Instrument { get; set; }
