@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Goova.Subscriptions.Models.Notifications;
+using System;
 
 namespace Goova.Subscriptions.Models.Subscriptions
 {
@@ -18,5 +19,6 @@ namespace Goova.Subscriptions.Models.Subscriptions
         public string Ticket { get; set; }
         public bool Success { get; set; }
         public string ErrorString { get; set; }
+        public NotificationTypeEnum NotificationType { get; set; }
     }
 }
